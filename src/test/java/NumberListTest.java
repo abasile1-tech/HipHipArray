@@ -44,5 +44,6 @@ public class NumberListTest {
         testNumbers.add(8);
         this.myNumbers.multiplyNumbersByTwo();
         assertEquals(testNumbers, this.myNumbers.getNumbers());
+        assertArrayEquals(testNumbers.toArray(), this.myNumbers.getNumbers().toArray());
     }
 }
