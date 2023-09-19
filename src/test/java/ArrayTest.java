@@ -14,4 +14,9 @@ public class ArrayTest {
     public void hasFourColors(){
         assertEquals(4, peacock.getColors().length);
     }
+
+    @Test
+    public void hasBlueColorAtIndex3() {
+        assertEquals("Blue", peacock.getColorFromIndex(3));
+    }
 }

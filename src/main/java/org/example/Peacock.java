@@ -8,6 +8,10 @@ public class Peacock {
     }
 
     public String[] getColors() {
-        return colors;
+        return this.colors;
+    }
+
+    public String getColorFromIndex(int index) {
+        return this.colors[index];
     }
 }
