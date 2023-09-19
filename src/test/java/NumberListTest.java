@@ -43,6 +43,6 @@ public class NumberListTest {
         testNumbers.add(6);
         testNumbers.add(8);
         this.myNumbers.multiplyNumbersByTwo();
-        assertTrue(testNumbers.equals(this.myNumbers.getNumbers()));
+        assertEquals(testNumbers, this.myNumbers.getNumbers());
     }
 }
