@@ -20,4 +20,14 @@ public class NumberList {
     public int getNumberAtIndex(int index) {
         return this.numbers.get(index);
     }
+
+    public void multiplyNumbersByTwo() {
+        for (int i=0; i< this.getSize(); i++) {
+            this.numbers.set(i, this.getNumberAtIndex(i) * 2);
+        }
+    }
+
+    public ArrayList<Integer> getNumbers() {
+        return this.numbers;
+    }
 }

@@ -13,5 +13,6 @@ public class Main {
         for (Integer number : numbers) {
             System.out.println(number);
         }
+
     }
 }
