@@ -19,4 +19,10 @@ public class ArrayTest {
     public void hasBlueColorAtIndex3() {
         assertEquals("Blue", peacock.getColorFromIndex(3));
     }
+
+    @Test
+    public void canChangeColor() {
+        peacock.changeColor("Red", 0);
+        assertEquals("Red", peacock.getColors()[0]);
+    }
 }

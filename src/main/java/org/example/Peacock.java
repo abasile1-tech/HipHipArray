@@ -14,4 +14,8 @@ public class Peacock {
     public String getColorFromIndex(int index) {
         return this.colors[index];
     }
+
+    public void changeColor(String color, int index) {
+        this.colors[index] = color;
+    }
 }
