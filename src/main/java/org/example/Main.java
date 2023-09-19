@@ -10,8 +10,8 @@ public class Main {
         numbers.add(5);
         numbers.add(7);
 
-        for (int i = 0; i < numbers.size(); i++) {
-            System.out.println(numbers.get(i));
+        for (Integer number : numbers) {
+            System.out.println(number);
         }
     }
 }
